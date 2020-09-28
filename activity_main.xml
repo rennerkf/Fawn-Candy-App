@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:id="@+id/fawn_image_view"
+    android:layout_height="350dp"
+    android:src="@drawable/candystore"
+    android:scaleType="centerCrop"
+    android:contentDescription="fawncandy" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Fawn Candy"
+        android:layout_alignParentTop="true"
+        android:textSize="45sp"
+        android:textColor="#6200EE"
+        android:background="#F3E5F5"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_text_view"
+        android:gravity="center"
+        android:padding="7dp"
+        android:layout_below="@+id/fawn_image_view"
+        android:text="The Fawn Candy is a local candy store that has been making delicious candy for over 70 years! They make home made candy such as carmel apples, fudge, truffles and chocolate. It has been a Cincinnati tradition since 1946."
+        android:textSize="19sp"
+        android:textColor="#6200EE"
+        android:background="#F3E5F5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_text_view"
+        android:background="#F3E5F5"
+        android:text="Phone: 513-351-4191"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_below="@id/description_text_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#6200EE"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/website_text_view"
+        android:text="Visit fawncandy.com"
+        android:layout_below="@id/phone_text_view"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="20dp"
+        android:layout_marginBottom="25dp"
+        android:background="#F3E5F5"
+        android:textColor="#6200EE"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hours: Tuesday-Saturday 11-5"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="#F3E5F5"
+        android:textColor="#6200EE"/>
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
